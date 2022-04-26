@@ -1,0 +1,401 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px) {
+
+    body {
+        background-color: rgba(226, 221, 221, 0.932);
+    }
+
+    header {
+        width: 100%;
+        background-color: #5B7DB1;
+    }
+
+    header section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header section div {
+        margin: 5px 10px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: whitesmoke;
+        border: solid;
+        border-width: 4px;
+        border-radius: 30px;
+        padding: 5px 10px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /* ------------------------------------------ Empieza el main -------------------------------------- */
+
+    /* -------------------- Imagen principal-------------------- */
+
+    .contenedor-section1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-section1 div {
+        width: 100%;
+    }
+
+    .contenedor-section1-principal img {
+        width: 100%;
+    }
+
+    /* -------------------- Logo de wsp -------------------- */
+    .main-img-logo-w {
+        position: fixed;
+        z-index: 3;
+        width: 25px;
+        bottom: 6px;
+        right: 3px;
+    }
+
+    /* -------------------- Section main de la pagina destacadas + accesorios -------------------- */
+
+    .contenedor-section-pages {
+        display: flex;
+        justify-content: center;
+    }
+
+    main h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #7B6079;
+        font-size: 1rem;
+        margin: 20px 0px;
+        font-weight: bold;
+        border: solid #986D8E 4px;
+        border-radius: 50px;
+        padding: 10px;
+    }
+
+    /* -------------------- Borrar imagen ---------------------- */
+
+    .sacar-img1 {
+        display: none;
+    }
+
+    .sacar-img {
+        display: none;
+    }
+
+    /* -------------------- Empezamos los grids ---------------------- */
+
+    .contenedor-section2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-content: center;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(112, 112, 112);
+        font-size: 10px;
+    }
+
+    .contenedor-section2 div {
+        width: 110px;
+    }
+
+
+    .contenedor-section2 img {
+        border-radius: 20px;
+        width: 100%;
+        border: solid 4px #7B6079;
+    }
+
+    .contenedor-section2 p {
+        text-align: center;
+        padding: 3px 0px;
+    }
+
+    .tamaño-p {
+        font-size: 15px;
+        color: #3D3D3D;
+    }
+
+    div iframe {
+        display: none;
+    }
+
+    /* -------------------- Cambiamos cosas en los otras paginas -------------------- */
+
+    .contenedor-section-pages {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-h3 {
+        border: solid;
+        border-width: 5px;
+        border-radius: 30px;
+        padding: 7px 15px;
+    }
+
+    /* -------------------- Empieza el footer -------------------- */
+
+    footer {
+        background-color: #3D3D3D;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .contenedor-section3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: left;
+
+    }
+
+    .contenedor-section3 div {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: silver;
+        font-size: 10px;
+    }
+
+    .contenedor-section3 h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #7B6079;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .contenedor-section3 ul {
+        list-style-type: none;
+        margin: 10px;
+    }
+
+    .contenedor-section3 li {
+        padding: 2px 0px;
+        text-align: left;
+        width: 80%;
+    }
+
+
+    .contenedor-section3 img {
+        padding: 10px 3px;
+        width: 32px;
+    }
+
+}
+
+/* ---------------------------- Nueva resolucion 570 ---------------------------- */
+
+@media screen and (min-width: 570px) {
+
+    .contenedor-section2 {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .sacar-img1 {
+        display: block;
+    }
+
+}
+
+/* -------------------- Empieza nueva resolucion 768 -------------------- */
+
+@media screen and (min-width: 768px) {
+
+    header section {
+        display: none;
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        z-index: 3;
+        background-color: #5B7DB1;
+        width: 100%;
+    }
+
+    nav li {
+        list-style: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        margin: 10px 10px;
+    }
+
+    /* -------------------- Empieza nueva resolucion de main de 768-------------------- */
+
+    /* -------------------- Imagen principal de 768-------------------- */
+
+    .contenedor-section1-principal img {
+        margin-top: 50px;
+    }
+
+    /* -------------------- Logo de wsp -------------------- */
+    .main-img-logo-w {
+        width: 30px;
+        right: 8px;
+    }
+
+    /* -------------------- Section main de la pagina destacadas + accesorios -------------------- */
+
+    main h3 {
+        font-size: 1.3rem;
+    }
+
+    /* ---------------------------- Empieza los grids de la resolucion 768 ---------------------------- */
+
+    .contenedor-section2 {
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 15px;
+    }
+
+    .contenedor-section2 div {
+        width: 170px;
+    }
+
+    .contenedor-section2 img {
+        border-radius: 30px;
+        border: solid 4px #7B6079;
+    }
+
+    .tamaño-p {
+        font-size: 23px;
+    }
+
+    .sacar-img1 {
+        display: block;
+    }
+
+    /* ---------------------------- Empieza seccion de otros html de la resolucion 768 ---------------------------- */
+
+    .main-h3 {
+        margin-top: 80px;
+    }
+
+
+    /* ---------------------------- Empieza el footer de la resolucion 768 ---------------------------- */
+
+
+    .contenedor-section3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+
+    .contenedor-section3 li {
+        font-size: 12px;
+        width: 100%;
+    }
+
+}
+
+/* ---------------------------- Empieza nueva resolucion 1024 ---------------------------- */
+
+@media screen and (min-width: 1024px) {
+
+    nav li {
+        font-size: 18px;
+    }
+
+    /* ---------------------------- Empieza el main resolucion 1024 ---------------------------- */
+
+    .main-img-logo-w {
+        width: 35px;
+        bottom: 8px;
+    }
+
+    main h3 {
+        font-size: 1.7rem;
+        margin: 30px;
+    }
+
+    /* ---------------------------- Empieza los grids resolucion 1024 ---------------------------- */
+
+    .contenedor-section2 {
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 15px;
+    }
+
+    .contenedor-section2 img {
+        border-radius: 35px;
+        border: solid 4px #7B6079;
+    }
+
+    .sacar-img1 {
+        display: block;
+    }
+
+    .sacar-img {
+        display: block;
+    }
+
+}
+
+/* ---------------------------- Nueva resolucion 1366 ---------------------------- */
+
+@media screen and (min-width: 1366px) {
+
+    nav li{
+        font-size: 22px;
+        margin: 10px 30px;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    /* ---------------------------- Empieza el main ---------------------------- */
+
+    main h3 {
+        font-size: 2rem;
+    }
+
+    .contenedor-section2{
+        font-size: 16px;
+        grid-column-gap: 40px;
+        grid-row-gap: 70px;
+    }
+    
+    .contenedor-section2 div{
+        width: 210px;
+    }
+
+    .contenedor-section2 img{
+        border-radius: 50px;
+    }
+
+    .tamaño-p {
+        font-size: 25px;
+    }
+
+    /* ---------------------------- Empieza el footer ---------------------------- */
+
+    .contenedor-section3 h3{
+        font-size: 18px;
+    }
+
+    .contenedor-section3 li{
+        font-size: 13px;
+    }
+
+}
