@@ -60,6 +60,7 @@
 
     .contenedor-section1-principal img {
         width: 100%;
+        transform: scale(0.5);
     }
 
     /* -------------------- Logo de wsp -------------------- */
