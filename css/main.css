@@ -60,7 +60,6 @@
 
     .contenedor-section1-principal img {
         width: 100%;
-        transform: scale(0.5);
     }
 
     /* -------------------- Logo de wsp -------------------- */
@@ -356,12 +355,12 @@
 
 @media screen and (min-width: 1366px) {
 
-    nav li{
+    nav li {
         font-size: 22px;
         margin: 10px 30px;
     }
 
-    h1{
+    h1 {
         font-size: 1.8rem;
     }
 
@@ -371,17 +370,17 @@
         font-size: 2rem;
     }
 
-    .contenedor-section2{
+    .contenedor-section2 {
         font-size: 16px;
         grid-column-gap: 40px;
         grid-row-gap: 70px;
     }
-    
-    .contenedor-section2 div{
+
+    .contenedor-section2 div {
         width: 210px;
     }
 
-    .contenedor-section2 img{
+    .contenedor-section2 img {
         border-radius: 50px;
     }
 
@@ -391,12 +390,25 @@
 
     /* ---------------------------- Empieza el footer ---------------------------- */
 
-    .contenedor-section3 h3{
+    .contenedor-section3 h3 {
         font-size: 18px;
     }
 
-    .contenedor-section3 li{
+    .contenedor-section3 li {
         font-size: 13px;
     }
 
+}
+
+/* ---------------------------- Empieza las animaciones ---------------------------- */
+
+
+.animacion img:hover{
+    transform: scale(0.9);
+}
+
+.animacion h3:hover{
+    background-color: #3D3D3D;
+    border-color: #3D3D3D;
+    color: white;
 }
