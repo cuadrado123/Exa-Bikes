@@ -55,10 +55,11 @@
     }
 
     .contenedor-section1 div {
-        width: 100%;
+        width: 80%;
     }
 
     .contenedor-section1-principal img {
+        position: relative;
         width: 100%;
     }
 
@@ -246,7 +247,7 @@
     /* -------------------- Imagen principal de 768-------------------- */
 
     .contenedor-section1-principal img {
-        margin-top: 50px;
+        margin-top: 60px;
     }
 
     /* -------------------- Logo de wsp -------------------- */
@@ -366,6 +367,10 @@
 
     /* ---------------------------- Empieza el main ---------------------------- */
 
+    .contenedor-section1-principal{
+        margin-top: 10px;
+    }
+
     main h3 {
         font-size: 2rem;
     }
@@ -402,6 +407,9 @@
 
 /* ---------------------------- Empieza las animaciones ---------------------------- */
 
+.animacion li:hover{
+    transform: scale(0.9);
+}
 
 .animacion img:hover{
     transform: scale(0.9);
@@ -411,4 +419,22 @@
     background-color: #3D3D3D;
     border-color: #3D3D3D;
     color: white;
+}
+
+.animacion-img{
+    animation: moverimg 3s;
+
+}
+
+@keyframes moverimg {
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: translate(0.75);
+    }
+    100%{
+        transform: scale(1);
+    }
+
 }
