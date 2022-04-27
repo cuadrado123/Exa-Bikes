@@ -50,16 +50,16 @@
     /* -------------------- Imagen principal-------------------- */
 
     .contenedor-section1 {
+        position: relative;
         display: flex;
         justify-content: center;
     }
 
     .contenedor-section1 div {
-        width: 80%;
+        width: 90%;
     }
 
     .contenedor-section1-principal img {
-        position: relative;
         width: 100%;
     }
 
