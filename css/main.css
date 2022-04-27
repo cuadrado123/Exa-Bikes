@@ -56,7 +56,7 @@
     }
 
     .contenedor-section1 div {
-        width: 90%;
+        width: 80%;
     }
 
     .contenedor-section1-principal img {
@@ -389,6 +389,10 @@
         border-radius: 50px;
     }
 
+    .contenedor-section2 p{
+        padding-top: 20px;
+    }
+
     .tamaño-p {
         font-size: 25px;
     }
@@ -413,25 +417,29 @@
 
 .animacion img:hover{
     transform: scale(0.9);
+    box-shadow: 13px 15px 37px black;
 }
 
 .animacion h3:hover{
-    background-color: #3D3D3D;
-    border-color: #3D3D3D;
+    background-color: #616060;
+    border-color: #616060;
     color: white;
 }
 
 .animacion-img{
-    animation: moverimg 3s;
+    animation: moverimg 5s;
 
 }
 
 @keyframes moverimg {
     0%{
-        transform: scale(0.5);
+        transform: scale(0.1);
     }
-    50%{
-        transform: translate(0.75);
+    25%{
+        transform: translate(0.3);
+    }
+    75%{
+        transform: translate(0.6);
     }
     100%{
         transform: scale(1);
