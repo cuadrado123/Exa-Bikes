@@ -10,25 +10,6 @@
         background-color: rgba(226, 221, 221, 0.932);
     }
 
-    header {
-        width: 100%;
-        background-color: #5B7DB1;
-    }
-
-    header section {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    header section div {
-        margin: 5px 10px;
-    }
-
-    nav ul {
-        display: none;
-    }
-
     a {
         color: white;
         text-decoration: none;
@@ -46,22 +27,6 @@
     }
 
     /* ------------------------------------------ Empieza el main -------------------------------------- */
-
-    /* -------------------- Imagen principal-------------------- */
-
-    .contenedor-section1 {
-        position: relative;
-        display: flex;
-        justify-content: center;
-    }
-
-    .contenedor-section1 div {
-        width: 80%;
-    }
-
-    .contenedor-section1-principal img {
-        width: 100%;
-    }
 
     /* -------------------- Logo de wsp -------------------- */
     .main-img-logo-w {
@@ -90,15 +55,6 @@
         padding: 10px;
     }
 
-    /* -------------------- Borrar imagen ---------------------- */
-
-    .sacar-img1 {
-        display: none;
-    }
-
-    .sacar-img {
-        display: none;
-    }
 
     /* -------------------- Empezamos los grids ---------------------- */
 
@@ -225,13 +181,11 @@
         display: none;
     }
 
-    header ul {
+    nav ul {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        position: fixed;
-        z-index: 3;
-        background-color: #5B7DB1;
+
         width: 100%;
     }
 
@@ -356,14 +310,6 @@
 
 @media screen and (min-width: 1366px) {
 
-    nav li {
-        font-size: 22px;
-        margin: 10px 30px;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
 
     /* ---------------------------- Empieza el main ---------------------------- */
 
@@ -389,10 +335,6 @@
         border-radius: 50px;
     }
 
-    .contenedor-section2 p{
-        padding-top: 20px;
-    }
-
     .tamaño-p {
         font-size: 25px;
     }
@@ -409,7 +351,7 @@
 
 }
 
-/* ---------------------------- Empieza las animaciones ---------------------------- */
+/* ---------------------------- Empieza las animaciones generales ---------------------------- */
 
 .animacion li:hover{
     transform: scale(0.9);
@@ -417,32 +359,59 @@
 
 .animacion img:hover{
     transform: scale(0.9);
-    box-shadow: 13px 15px 37px black;
 }
 
 .animacion h3:hover{
-    background-color: #616060;
-    border-color: #616060;
+    background-color: #3D3D3D;
+    border-color: #3D3D3D;
     color: white;
 }
 
 .animacion-img{
-    animation: moverimg 5s;
+    animation: moverimg 3s;
 
 }
 
 @keyframes moverimg {
     0%{
-        transform: scale(0.1);
+        transform: scale(0.5);
     }
-    25%{
-        transform: translate(0.3);
-    }
-    75%{
-        transform: translate(0.6);
+    50%{
+        transform: translate(0.75);
     }
     100%{
         transform: scale(1);
+    }
+
+}
+
+
+/* ---------------------------- Empieza las animaciones generales ---------------------------- */
+
+.animacionp div:hover{
+    border: solid #3D3D3D 3px;
+    transform: scale(0.9);
+}
+
+.animacion-h3:hover{
+    animation: moverT 2s;
+}
+
+@keyframes moverT {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
     }
 
 }
