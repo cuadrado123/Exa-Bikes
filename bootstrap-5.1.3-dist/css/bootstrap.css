@@ -7586,12 +7586,12 @@ textarea.form-control-lg {
 }
 
 .fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: 18px;
 }
 
 /* Cambio de font */
 .fs-5 {
-  font-size: 13px; 
+  font-size: 11px; 
 }
 
 .fs-6 {

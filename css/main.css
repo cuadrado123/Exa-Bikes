@@ -7,7 +7,11 @@
 @media screen and (min-width: 320px) {
 
     body {
-        background-color: rgba(226, 221, 221, 0.932);
+        background-color: rgba(207, 207, 207, 0.932);
+    }
+
+    header {
+        background-color: #212529;
     }
 
     a {
@@ -15,7 +19,7 @@
         text-decoration: none;
     }
 
-    h1{
+    h1 {
         text-align: center;
         color: aliceblue;
     }
@@ -49,6 +53,21 @@
         padding: 10px;
     }
 
+
+    /* Estilos para las imagenes */
+    .sectionDest div {
+        width: 110px;
+    }
+
+    .sectionDest img {
+        border-radius: 20px;
+        max-width: 100%;
+        border: solid 4px #7B6079;
+    }
+
+    .sectionDest p{
+        padding: 5px 0px;
+    }
 
     /* -------------------- Empezamos los grids ---------------------- */
 
@@ -279,6 +298,10 @@
     }
 
     /* ---------------------------- Empieza los grids resolucion 1024 ---------------------------- */
+
+    .sectionDest div{
+        width: 200px;
+    }
 
     .contenedor-section2 {
         grid-template-columns: repeat(4, 1fr);
