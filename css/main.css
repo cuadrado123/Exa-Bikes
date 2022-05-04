@@ -15,15 +15,9 @@
         text-decoration: none;
     }
 
-    h1 {
-        font-size: 20px;
-        color: whitesmoke;
-        border: solid;
-        border-width: 4px;
-        border-radius: 30px;
-        padding: 5px 10px;
-        font-weight: bold;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    h1{
+        text-align: center;
+        color: aliceblue;
     }
 
     /* ------------------------------------------ Empieza el main -------------------------------------- */
@@ -313,7 +307,7 @@
 
     /* ---------------------------- Empieza el main ---------------------------- */
 
-    .contenedor-section1-principal{
+    .contenedor-section1-principal {
         margin-top: 10px;
     }
 
@@ -353,33 +347,35 @@
 
 /* ---------------------------- Empieza las animaciones generales ---------------------------- */
 
-.animacion li:hover{
+.animacion li:hover {
     transform: scale(0.9);
 }
 
-.animacion img:hover{
+.animacion img:hover {
     transform: scale(0.9);
 }
 
-.animacion h3:hover{
+.animacion h3:hover {
     background-color: #3D3D3D;
     border-color: #3D3D3D;
     color: white;
 }
 
-.animacion-img{
+.animacion-img {
     animation: moverimg 3s;
 
 }
 
 @keyframes moverimg {
-    0%{
+    0% {
         transform: scale(0.5);
     }
-    50%{
+
+    50% {
         transform: translate(0.75);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 
@@ -388,29 +384,33 @@
 
 /* ---------------------------- Empieza las animaciones generales ---------------------------- */
 
-.animacionp div:hover{
+.animacionp div:hover {
     border: solid #3D3D3D 3px;
     transform: scale(0.9);
 }
 
-.animacion-h3:hover{
+.animacion-h3:hover {
     animation: moverT 2s;
 }
 
 @keyframes moverT {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    25%{
+
+    25% {
         transform: rotate(10deg);
     }
-    50%{
+
+    50% {
         transform: rotate(0deg);
     }
-    75%{
+
+    75% {
         transform: rotate(-10deg);
     }
-    100%{
+
+    100% {
         transform: rotate(0deg);
     }
 
