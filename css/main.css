@@ -21,6 +21,7 @@
     }
 
     h1 {
+        padding-top: 10px;
         text-align: center;
         color: aliceblue;
     }
@@ -31,7 +32,7 @@
     .main-img-logo-w {
         position: fixed;
         z-index: 3;
-        width: 25px;
+        width: 30px;
         bottom: 6px;
         right: 3px;
     }
@@ -56,18 +57,21 @@
 
     /* Estilos para las imagenes */
     .sectionDest div {
-        width: 110px;
+        width: 250px;
+    }
+    
+    .card-img-top{
+        margin-top: 10px;
     }
 
     .sectionDest img {
-        border-radius: 20px;
-        max-width: 100%;
+        max-width: 70%;
         border: solid 4px #7B6079;
     }
-
+    /*
     .sectionDest p{
         padding: 5px 0px;
-    }
+    } */
 
     /* -------------------- Empezamos los grids ---------------------- */
 
@@ -215,7 +219,7 @@
 
     /* -------------------- Logo de wsp -------------------- */
     .main-img-logo-w {
-        width: 30px;
+        width: 35px;
         right: 8px;
     }
 
@@ -284,7 +288,7 @@
     /* ---------------------------- Empieza el main resolucion 1024 ---------------------------- */
 
     .main-img-logo-w {
-        width: 35px;
+        width: 40px;
         bottom: 8px;
     }
 
@@ -295,7 +299,7 @@
 
     /* ---------------------------- Empieza los grids resolucion 1024 ---------------------------- */
 
-    .sectionDest div{
+    /* .sectionDest div{
         width: 200px;
     }
 
@@ -307,7 +311,7 @@
     .sectionDest p{
         padding: 5px 0px;
         font-size: 15px;
-    }
+    } */
 
     .contenedor-section2 {
         grid-template-columns: repeat(4, 1fr);
