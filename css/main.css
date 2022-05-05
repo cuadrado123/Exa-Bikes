@@ -26,6 +26,10 @@
         color: aliceblue;
     }
 
+    .nav-link.active{
+        text-align: center;
+    }
+
     /* ------------------------------------------ Empieza el main -------------------------------------- */
 
     /* -------------------- Logo de wsp -------------------- */
@@ -71,7 +75,7 @@
 
     .sectionDest img {
         max-width: 70%;
-        border: solid 4px #7B6079;
+        border-radius: 30px;
     }
 
     /* -------------------- Empezamos los grids ---------------------- */
@@ -301,20 +305,6 @@
     }
 
     /* ---------------------------- Empieza los grids resolucion 1024 ---------------------------- */
-
-    /* .sectionDest div{
-        width: 200px;
-    }
-
-    .sectionDest img{
-        border-radius: 35px;
-        border: solid 4px #7B6079;
-    }
-
-    .sectionDest p{
-        padding: 5px 0px;
-        font-size: 15px;
-    } */
 
     .contenedor-section2 {
         grid-template-columns: repeat(4, 1fr);
