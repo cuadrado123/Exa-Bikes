@@ -47,7 +47,8 @@
     main h3 {
         color: #7B6079;
         font-size: 1rem;
-        margin: 20px 0px;
+        margin-top: 15px;
+        margin-bottom: 5px;
         font-weight: bold;
         border: solid #986D8E 4px;
         border-radius: 50px;
@@ -60,6 +61,10 @@
         width: 250px;
     }
     
+    .card {
+        margin-top: 15px;
+    }
+
     .card-img-top{
         margin-top: 10px;
     }
@@ -68,10 +73,6 @@
         max-width: 70%;
         border: solid 4px #7B6079;
     }
-    /*
-    .sectionDest p{
-        padding: 5px 0px;
-    } */
 
     /* -------------------- Empezamos los grids ---------------------- */
 
@@ -101,7 +102,9 @@
         text-align: center;
         padding: 3px 0px;
     }
-
+    p{
+        margin-bottom: 5px;
+    }
     .tamaño-p {
         font-size: 15px;
         color: #3D3D3D;
