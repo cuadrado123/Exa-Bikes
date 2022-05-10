@@ -1,0 +1,13 @@
+.animacion li {
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.animacion h3 {
+    &:hover {
+        background-color: #3D3D3D;
+        border-color: #3D3D3D;
+        color: white;
+    }
+}
