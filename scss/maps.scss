@@ -1,0 +1,33 @@
+// Maps
+
+$estilos: (
+    subtitle: #7B6079,
+    title: aliceblue,
+    list: silver, 
+);
+
+@each $name, $color in $estilos {
+    .color-#{$name}{
+        color: $color;
+    }
+}
+
+// extend
+
+.img-style{
+    @extend img; 
+    border: solid white 2px;
+    border-radius: 12px;
+}
+
+
+// Mixins
+
+@mixin lista-nav {
+    margin: 8px;
+}
+
+.nav-link.active{
+    @include lista-nav;
+    text-align: center;
+}
