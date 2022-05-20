@@ -1,15 +1,43 @@
 @media screen and (min-width: 1024px) {
     header {
         nav {
+            h1{
+                font-size: 25px;
+            }
             li {
-                font-size: 18px;
+                font-size: 15px;
             }
         }
     }
 
     main {
+
+        .main-img-logo-w {
+            width: 40px;
+            bottom: 8px;
+        }
+
         h3 {
             font-size: 1.7rem;
+        }
+
+        .contenedor-section2 {
+            grid-template-columns: repeat(4, 1fr);
+            font-size: 15px;
+
+            img {
+                border-radius: 35px;
+                border: solid 4px #7B6079;
+            }
+
+            .sacar-img1 {
+                display: block;
+            }
+
+            .sacar-img {
+                display: block;
+            }
+
         }
     }
 }

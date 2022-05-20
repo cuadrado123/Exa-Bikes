@@ -15,6 +15,9 @@ body {
         padding-left: 10px;
         text-align: center;
         color: aliceblue; }
+      header div .navbar {
+        padding-top: 0px;
+        padding-bottom: 0px; }
       header div .navbar-collapse {
         margin-top: 5px; }
       header div .nav-link.active {
@@ -113,7 +116,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%; }
+    width: 100%;
+    margin-left: 20px; }
   header nav li {
     list-style: none;
     font-size: 15px;
@@ -148,10 +152,25 @@ body {
       width: 100%; } }
 
 @media screen and (min-width: 1024px) {
+  header nav h1 {
+    font-size: 25px; }
   header nav li {
-    font-size: 18px; }
+    font-size: 15px; }
+  main .main-img-logo-w {
+    width: 40px;
+    bottom: 8px; }
   main h3 {
-    font-size: 1.7rem; } }
+    font-size: 1.7rem; }
+  main .contenedor-section2 {
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 15px; }
+    main .contenedor-section2 img, main .contenedor-section2 .img-style {
+      border-radius: 35px;
+      border: solid 4px #7B6079; }
+    main .contenedor-section2 .sacar-img1 {
+      display: block; }
+    main .contenedor-section2 .sacar-img {
+      display: block; } }
 
 @media screen and (min-width: 1366px) {
   main h3 {
