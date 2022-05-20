@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: rgba(207, 207, 207, 0.932);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
@@ -6,22 +7,69 @@ body {
     text-decoration: none; }
 
 @media screen and (min-width: 320px) {
-  header div {
-    background-color: #212529;
-    width: 100%; }
-    header div h1 {
-      padding-left: 10px;
-      text-align: center; }
-    header div .navbar-collapse {
-      margin-top: 10px; }
-    header div li {
-      margin: auto;
-      position: auto; }
+  header {
+    background-color: #212529; }
+    header div {
+      width: 100%; }
+      header div h1 {
+        padding-left: 10px;
+        text-align: center;
+        color: aliceblue; }
+      header div .navbar-collapse {
+        margin-top: 5px; }
+      header div .nav-link.active {
+        text-align: center; }
+  main div .main-img-logo-w {
+    position: fixed;
+    z-index: 3;
+    width: 35px;
+    bottom: 6px;
+    right: 3px; }
+  main .contenedor-section-pages {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; }
+    main .contenedor-section-pages .main-h3 {
+      border: solid;
+      border-width: 3px;
+      border-radius: 30px;
+      padding: 7px 15px; }
+  main .sectionDest div {
+    width: 250px; }
+  main .sectionDest img, main .sectionDest .img-style {
+    max-width: 70%;
+    border-radius: 30px; }
+  main .card {
+    margin-top: 15px; }
+  main .card-img-top {
+    margin-top: 10px; }
+  main .contenedor-section2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    color: #707070;
+    font-size: 10px; }
+    main .contenedor-section2 div {
+      width: 110px; }
+    main .contenedor-section2 img, main .contenedor-section2 .img-style {
+      border-radius: 20px;
+      width: 100%;
+      border: solid 3px #7B6079; }
+    main .contenedor-section2 p {
+      text-align: center;
+      padding: 3px 0px;
+      margin-bottom: 0px; }
+    main .contenedor-section2 .tamaño-p {
+      font-size: 15px;
+      color: #3D3D3D; }
   main h3 {
     font-size: 1.5rem;
     margin-bottom: 5px;
     font-weight: bold;
-    border: solid #986D8E 3px;
+    border: solid 3px;
     border-radius: 50px;
     padding: 7px;
     margin-top: 20px; }
