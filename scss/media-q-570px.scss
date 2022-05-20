@@ -1,0 +1,15 @@
+@media screen and (min-width: 570px) {
+
+    main{
+        .contenedor-section2 {
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+    
+            .sacar-img1 {
+                display: block;
+            }
+        }
+    }    
+
+}

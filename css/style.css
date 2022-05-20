@@ -19,7 +19,7 @@ body {
         margin-top: 5px; }
       header div .nav-link.active {
         text-align: center; }
-  main div .main-img-logo-w {
+  main .main-img-logo-w {
     position: fixed;
     z-index: 3;
     width: 35px;
@@ -35,7 +35,7 @@ body {
       border-radius: 30px;
       padding: 7px 15px; }
   main .sectionDest div {
-    width: 250px; }
+    width: 220px; }
   main .sectionDest img, main .sectionDest .img-style {
     max-width: 70%;
     border-radius: 30px; }
@@ -100,6 +100,14 @@ body {
       footer .contenedor-section3 img, footer .contenedor-section3 .img-style {
         width: 35px; } }
 
+@media screen and (min-width: 570px) {
+  main .contenedor-section2 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; }
+    main .contenedor-section2 .sacar-img1 {
+      display: block; } }
+
 @media screen and (min-width: 768px) {
   header nav ul {
     display: flex;
@@ -110,8 +118,26 @@ body {
     list-style: none;
     font-size: 15px;
     margin: 10px 10px; }
+  main .main-img-logo-w {
+    width: 35px;
+    right: 8px; }
   main h3 {
-    font-size: 1.3rem; }
+    font-size: 1.6rem; }
+  main .contenedor-section2 {
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 15px;
+    grid-row-gap: 25px; }
+    main .contenedor-section2 div {
+      width: 170px; }
+    main .contenedor-section2 img, main .contenedor-section2 .img-style {
+      border-radius: 30px;
+      border: solid 4px #7B6079; }
+    main .contenedor-section2 .tamaño-p {
+      font-size: 23px; }
+    main .contenedor-section2 .sacar-img1 {
+      display: block; }
+  main .main-h3 {
+    font-size: 1.6rem; }
   footer .contenedor-section3 {
     display: flex;
     justify-content: space-between;
