@@ -173,8 +173,22 @@ body {
       display: block; } }
 
 @media screen and (min-width: 1366px) {
+  header nav h1 {
+    font-size: 30px; }
+  header nav li {
+    font-size: 20px; }
   main h3 {
     font-size: 2rem; }
+  main .contenedor-section2 {
+    font-size: 16px;
+    grid-column-gap: 40px;
+    grid-row-gap: 70px; }
+    main .contenedor-section2 div {
+      width: 190px; }
+    main .contenedor-section2 img, main .contenedor-section2 .img-style {
+      border-radius: 40px; }
+    main .contenedor-section2 .tamaño-p {
+      font-size: 25px; }
   footer .contenedor-section3 h3 {
     font-size: 18px; }
   footer .contenedor-section3 li {
