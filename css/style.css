@@ -15,9 +15,6 @@ body {
         padding-left: 10px;
         text-align: center;
         color: aliceblue; }
-      header div .navbar {
-        padding-top: 0px;
-        padding-bottom: 0px; }
       header div .navbar-collapse {
         margin-top: 5px; }
       header div .nav-link.active {
@@ -152,8 +149,13 @@ body {
       width: 100%; } }
 
 @media screen and (min-width: 1024px) {
+  header .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    align-items: baseline; }
   header nav h1 {
-    font-size: 25px; }
+    font-size: 28px;
+    padding-left: 18px; }
   header nav li {
     font-size: 15px; }
   main .main-img-logo-w {
@@ -201,6 +203,9 @@ body {
   background-color: #3D3D3D;
   border-color: #3D3D3D;
   color: white; }
+
+.animacion img:hover, .animacion .img-style:hover {
+  transform: scale(0.9); }
 
 .color-subtitle {
   color: #7B6079; }

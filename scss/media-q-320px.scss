@@ -22,11 +22,6 @@ body {
                 color: aliceblue;
             }
 
-            .navbar{
-                padding-top: 0px;
-                padding-bottom: 0px;
-            }
-
             .navbar-collapse {
                 margin-top: 5px;
             }
@@ -106,7 +101,7 @@ body {
             img {
                 border-radius: 20px;
                 width: $ancho;
-                border: solid 3px #7B6079;
+                border: solid 3px $border-color;
             }
 
             p {
@@ -154,7 +149,7 @@ body {
             }
 
             h3 {
-                color: #7B6079;
+                color: $border-color;
                 font-weight: bold;
                 font-size: 15px;
                 margin-top: 5px;
