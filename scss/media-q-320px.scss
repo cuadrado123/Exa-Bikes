@@ -12,6 +12,10 @@ body {
 
     header {
         background-color: $fondo-dark;
+        width: 100vw;
+        position: sticky;
+        top: 0;
+        z-index: 100;
 
         div {
             width: $ancho;

@@ -8,7 +8,11 @@ body {
 
 @media screen and (min-width: 320px) {
   header {
-    background-color: #212529; }
+    background-color: #212529;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 100; }
     header div {
       width: 100%; }
       header div h1 {
@@ -22,7 +26,7 @@ body {
   main .main-img-logo-w {
     position: fixed;
     z-index: 3;
-    width: 35px;
+    width: 32px;
     bottom: 6px;
     right: 3px; }
   main .contenedor-section-pages {
@@ -98,7 +102,7 @@ body {
         text-align: left;
         width: 80%; }
       footer .contenedor-section3 img, footer .contenedor-section3 .img-style {
-        width: 35px; } }
+        width: 32px; } }
 
 @media screen and (min-width: 570px) {
   main .contenedor-section2 {
@@ -120,7 +124,7 @@ body {
     font-size: 15px;
     margin: 10px 10px; }
   main .main-img-logo-w {
-    width: 35px;
+    width: 32px;
     right: 8px; }
   main h3 {
     font-size: 1.6rem; }
