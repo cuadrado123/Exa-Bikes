@@ -12,7 +12,7 @@ body {
 
     header {
         background-color: $fondo-dark;
-        width: 100vw;
+        width: 100%;
         position: sticky;
         top: 0;
         z-index: 100;
@@ -172,11 +172,12 @@ body {
             li {
                 padding: 2px 0px;
                 text-align: left;
-                width: 80%;
+                color: $li-color;
             }
 
             img {
                 width: $max-img;
+                text-align: center;
             }
 
         }

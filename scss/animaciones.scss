@@ -18,6 +18,7 @@
 
         &:hover {
             transform: scale(0.9);
+
             &:after {
                 transform: scaleX(1);
                 transform-origin: bottom left
@@ -49,10 +50,18 @@
             }
         }
     }
+}
 
-    img {
+.animacion-border {
+    div {
         &:hover {
-            transform: scale(0.9);
+            border: solid 2px;
+            box-shadow: 8px 10px;
+
+            img {
+                transform: scale(0.9);
+            }
         }
     }
+
 }
