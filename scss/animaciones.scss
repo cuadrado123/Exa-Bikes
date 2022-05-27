@@ -1,15 +1,52 @@
 .animacion {
     li {
+        display: inline-block;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 3px;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+
         &:hover {
             transform: scale(0.9);
+            &:after {
+                transform: scaleX(1);
+                transform-origin: bottom left
+            }
         }
     }
 
     h3 {
+        display: inline-block;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 4px;
+            bottom: 0;
+            left: 0;
+            background-color: rgb(60, 60, 134);
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+
         &:hover {
-            background-color: #3D3D3D;
-            border-color: #3D3D3D;
-            color: white;
+            &:after {
+                transform: scaleX(1);
+                transform-origin: bottom left
+            }
         }
     }
 
@@ -19,4 +56,3 @@
         }
     }
 }
-

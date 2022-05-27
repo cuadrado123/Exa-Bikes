@@ -1,9 +1,8 @@
 // Maps
 
 $estilos: (
-    subtitle: $border-color,
+    subtitle: #212529,
     title: aliceblue,
-    list: silver, 
 );
 
 @each $name, $color in $estilos {
@@ -14,10 +13,9 @@ $estilos: (
 
 // extend
 
-.img-style{
-    @extend img; 
-    border: solid white 2px;
-    border-radius: 12px;
+.ul-color{
+    @extend li; 
+    color: black;
 }
 
 

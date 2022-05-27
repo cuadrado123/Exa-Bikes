@@ -1,9 +1,9 @@
 body {
-    background-color: rgba(207, 207, 207, 0.932);
+    background-color: #FFFFFF;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     a {
-        color: white;
+        color: #313335;
         text-decoration: none;
     }
 }
@@ -41,6 +41,10 @@ body {
 
     main {
 
+        .breadcrumb {
+            justify-content: center;
+        }
+
         // Logo de wsp
 
         .main-img-logo-w {
@@ -58,12 +62,7 @@ body {
             justify-content: center;
             margin-bottom: 20px;
 
-            .main-h3 {
-                border: solid;
-                border-width: 3px;
-                border-radius: 30px;
-                padding: 7px 15px;
-            }
+
         }
 
         //------------------------------------------------ Estilos para las imagenes de card
@@ -73,18 +72,26 @@ body {
             }
 
             img {
-                max-width: 70%;
+                max-width: 80%;
                 border-radius: 30px;
+                padding-top: 10px;
+            }
+
+            h5{
+                text-align: center;
+            }
+
+            p{
+                text-align: center;
             }
         }
 
         .card {
             margin-top: 15px;
+            background-color: #FFFFFF;
         }
 
-        .card-img-top {
-            margin-top: 10px;
-        }
+
 
 
         //--------------------------------------------------- contenedor de section de imagenes
@@ -105,7 +112,7 @@ body {
             img {
                 border-radius: 20px;
                 width: $ancho;
-                border: solid 3px $border-color;
+                border: solid 3px $border-color-img;
             }
 
             p {
@@ -125,10 +132,9 @@ body {
             font-size: 1.5rem;
             margin-bottom: 5px;
             font-weight: bold;
-            border: solid 3px;
             border-radius: 50px;
             padding: 7px;
-            margin-top: 20px;
+            margin-top: 10px;
         }
 
         .form-control {
@@ -139,7 +145,7 @@ body {
     //--------------------------------------------------------------------- Footer
 
     footer {
-        background-color: #3D3D3D;
+        background-color: rgba(0, 0, 0, 0.1);
         margin-top: 10px;
         width: $ancho;
 
@@ -149,13 +155,12 @@ body {
             justify-items: left;
 
             div {
-                font-size: 10px;
+                font-size: 13px;
             }
 
             h3 {
-                color: $border-color;
                 font-weight: bold;
-                font-size: 15px;
+                font-size: 18px;
                 margin-top: 5px;
             }
 
