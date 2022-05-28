@@ -58,10 +58,11 @@
 .animacion-border {
     div {
         &:hover {
+            width: 220px;
             border: solid 2px;
 
             img {
-                transform: scale(0.9);
+                transform: scale(0.8);
                 transition: transform 0.2s ease-in-out;
             }
         }
