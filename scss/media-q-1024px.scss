@@ -1,4 +1,6 @@
 @media screen and (min-width: 1024px) {
+
+    // ------------------------------------------  header
     header {
         
         .navbar{
@@ -17,8 +19,10 @@
         }
     }
 
+    // ------------------------------------------ main
     main {
 
+        // ------------------------------------------  logo wsp
         .main-img-logo-w {
             width: 40px;
             bottom: 8px;
@@ -28,6 +32,7 @@
             font-size: 1.7rem;
         }
 
+        // ------------------------------------------  contenedor de img
         .contenedor-section2 {
             grid-template-columns: repeat(4, 1fr);
             font-size: 15px;
@@ -36,15 +41,6 @@
                 border-radius: 35px;
                 border: solid 4px $border-color-img;
             }
-
-            .sacar-img1 {
-                display: block;
-            }
-
-            .sacar-img {
-                display: block;
-            }
-
         }
     }
 }

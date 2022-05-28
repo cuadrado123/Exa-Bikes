@@ -68,8 +68,6 @@ body {
             display: flex;
             justify-content: center;
             margin-bottom: 20px;
-
-
         }
 
         //------------------------------------------------ Estilos para las imagenes de card
@@ -108,7 +106,7 @@ body {
             align-content: center;
             grid-column-gap: 20px;
             grid-row-gap: 20px;
-            color: rgb(112, 112, 112);
+            color: #707070;
             font-size: 10px;
 
             div {
@@ -142,7 +140,8 @@ body {
             padding: 7px;
             margin-top: 10px;
         }
-
+        
+        // -------------------------------------------------------- Definimos un ancho al formulario
         .form-control {
             width: 90%;
         }
@@ -151,7 +150,7 @@ body {
     //--------------------------------------------------------------------- Footer
 
     footer {
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: #0000001a;
         margin-top: 10px;
         width: $ancho;
 

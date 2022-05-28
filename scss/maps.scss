@@ -2,7 +2,7 @@
 
 $estilos: (
     subtitle: #212529,
-    title: aliceblue,
+    title: #f0f8ff,
 );
 
 @each $name, $color in $estilos {
@@ -15,7 +15,7 @@ $estilos: (
 
 .ul-color{
     @extend li; 
-    color: black;
+    color: #000000;
 }
 
 
