@@ -235,7 +235,7 @@ a {
 }
 /* cambio */
 a:hover {
-  color: white;
+  color: rgba(50, 50, 53, 0.432);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4486,7 +4486,7 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a,
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: rgb(60, 60, 134); /* cambio */
 }
 
 /* Modificacion */
@@ -4768,14 +4768,16 @@ textarea.form-control-lg {
 .breadcrumb-item + .breadcrumb-item {
   padding-left: 0.5rem;
 }
+/* cambio */
 .breadcrumb-item + .breadcrumb-item::before {
   float: left;
   padding-right: 0.5rem;
-  color: #6c757d;
+  color: #6c757d73;
   content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
 }
+/* cambio */
 .breadcrumb-item.active {
-  color: #6c757d;
+  color: #6c757d73;
 }
 
 .pagination {

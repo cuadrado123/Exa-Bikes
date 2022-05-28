@@ -56,12 +56,11 @@
     div {
         &:hover {
             border: solid 2px;
-            box-shadow: 8px 10px;
 
             img {
                 transform: scale(0.9);
+                transition: transform 0.2s ease-in-out;
             }
         }
     }
-
 }

@@ -1,9 +1,9 @@
 @charset "UTF-8";
 body {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   body a {
-    color: #313335;
+    color: #31333580;
     text-decoration: none; }
 
 @media screen and (min-width: 320px) {
@@ -18,27 +18,29 @@ body {
       header div h1 {
         padding-left: 10px;
         text-align: center;
-        color: aliceblue; }
+        color: #f0f8ff; }
       header div .navbar-collapse {
         margin-top: 5px; }
       header div .nav-link.active {
         text-align: center; }
+  main .linea {
+    border-top: 1px solid #0000003f;
+    height: 2px;
+    padding: 0;
+    margin: 20px 50px 0 50px; }
   main .breadcrumb {
     justify-content: center; }
   main .main-img-logo-w {
     position: fixed;
     z-index: 3;
-    width: 32px;
+    width: 35px;
     bottom: 6px;
     right: 3px; }
   main .contenedor-section-pages {
     display: flex;
     justify-content: center;
     margin-bottom: 20px; }
-  main .sectionDest div {
-    width: 220px; }
   main .sectionDest img {
-    max-width: 80%;
     border-radius: 30px;
     padding-top: 10px; }
   main .sectionDest h5 {
@@ -47,7 +49,9 @@ body {
     text-align: center; }
   main .card {
     margin-top: 15px;
-    background-color: #FFFFFF; }
+    background-color: #ffffff; }
+  main .card-img-top {
+    width: auto; }
   main .contenedor-section2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -65,7 +69,7 @@ body {
       border: solid 3px #7B6079; }
     main .contenedor-section2 p {
       text-align: center;
-      padding: 3px 0px;
+      padding: 5px 0px;
       margin-bottom: 0px; }
     main .contenedor-section2 .tamaño-p {
       font-size: 15px;
@@ -86,7 +90,7 @@ body {
     footer .contenedor-section3 {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
-      justify-items: left; }
+      justify-items: center; }
       footer .contenedor-section3 div {
         font-size: 13px; }
       footer .contenedor-section3 h3 {
@@ -98,11 +102,10 @@ body {
         padding-left: 20px; }
       footer .contenedor-section3 li, footer .contenedor-section3 .ul-color {
         padding: 2px 0px;
-        text-align: left;
+        text-align: center;
         color: #3c3c3c; }
       footer .contenedor-section3 img {
-        width: 32px;
-        text-align: center; } }
+        width: 35px; } }
 
 @media screen and (min-width: 570px) {
   main .contenedor-section2 {
@@ -129,7 +132,7 @@ body {
   main .breadcrumb {
     justify-content: left; }
   main .main-img-logo-w {
-    width: 32px;
+    width: 35px;
     right: 8px; }
   main h3 {
     font-size: 1.6rem; }
@@ -243,10 +246,10 @@ body {
     transform-origin: bottom left; }
 
 .animacion-border div:hover {
-  border: solid 2px;
-  box-shadow: 8px 10px; }
+  border: solid 2px; }
   .animacion-border div:hover img {
-    transform: scale(0.9); }
+    transform: scale(0.9);
+    transition: transform 0.2s ease-in-out; }
 
 .color-subtitle {
   color: #212529; }
