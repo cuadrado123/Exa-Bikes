@@ -29,6 +29,7 @@ body {
     padding: 0;
     margin: 20px 50px 0 50px; }
   main .breadcrumb {
+    margin-top: 20px;
     justify-content: center; }
   main .main-img-logo-w {
     position: fixed;
@@ -61,11 +62,11 @@ body {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     color: #707070;
-    font-size: 10px; }
+    font-size: 13px; }
     main .contenedor-section2 div {
-      width: 110px; }
+      width: 130px; }
     main .contenedor-section2 img {
-      border-radius: 20px;
+      border-radius: 25px;
       width: 100%;
       border: solid 3px #7B6079; }
     main .contenedor-section2 p {
@@ -73,7 +74,7 @@ body {
       padding: 5px 0px;
       margin-bottom: 0px; }
     main .contenedor-section2 .tamaño-p {
-      font-size: 15px;
+      font-size: 18px;
       color: #3D3D3D; }
   main h3 {
     font-size: 1.5rem;
@@ -237,7 +238,7 @@ body {
     transform-origin: bottom left; }
 
 .animacion-border div:hover {
-  width: 220px;
+  transform: scale(2);
   border: solid 2px; }
   .animacion-border div:hover img {
     transform: scale(0.8);

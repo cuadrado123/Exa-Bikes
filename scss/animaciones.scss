@@ -58,7 +58,7 @@
 .animacion-border {
     div {
         &:hover {
-            width: 220px;
+            transform: scale(2);
             border: solid 2px;
 
             img {
