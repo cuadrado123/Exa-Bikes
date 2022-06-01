@@ -80,6 +80,31 @@
                 font-size: 12px;
             }
         }
+
+        // -------------------------------------------------  Estilo de la section 4
+
+        .contenedor-section4 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            margin-top: 30px;
+
+            div {
+                font-size: 13px;
+                width: 40%;
+
+                p {
+                    margin-bottom: 5px;
+                    text-align: center;
+
+                    span {
+                        color: #3c3c86;
+                        text-decoration: underline solid #3c3c86;
+                    }
+                }
+            }
+
+        }
     }
 
 

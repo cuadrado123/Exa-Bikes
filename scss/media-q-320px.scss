@@ -93,7 +93,7 @@ body {
             border: none;
         }
 
-        .card-img-top{
+        .card-img-top {
             width: auto;
         }
 
@@ -139,7 +139,7 @@ body {
             padding: 7px;
             margin-top: 10px;
         }
-        
+
         // -------------------------------------------------------- Definimos un ancho al formulario
         .form-control {
             width: 90%;
@@ -158,29 +158,55 @@ body {
             grid-template-columns: repeat(1, 1fr);
             justify-items: center;
 
+            // ---------------------------------------------  Estilo de la lista
             div {
                 font-size: 13px;
-            }
 
-            h3 {
-                font-weight: bold;
-                font-size: 18px;
-                margin-top: 5px;
-            }
+                h3 {
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-top: 5px;
+                }
 
-            ul {
-                list-style-type: none;
-                padding-left: 20px;
-            }
+                ul {
+                    list-style-type: none;
+                    padding-left: 20px;
 
-            li {
-                padding: 2px 0px;
-                text-align: center;
-                color: $li-color;
-            }
+                    li {
+                        padding: 2px 0px;
+                        text-align: center;
+                        color: $li-color;
 
-            img {
-                width: $max-img;
+                        // ---------------------------------------------  Definimos un tamaño a los iconos
+                        img {
+                            width: $max-img;
+                        }
+                    }
+
+                    
+                }
+            }
+        }
+
+        // -------------------------------------------------  Estilo de la section 4
+
+        .contenedor-section4 {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+
+            div {
+                font-size: 13px;
+
+                p {
+                    margin-bottom: 5px;
+                    text-align: center;
+
+                    span {
+                        color: #3c3c86;
+                        text-decoration: underline solid #3c3c86;
+                    }
+                }
             }
 
         }
