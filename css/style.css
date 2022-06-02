@@ -224,12 +224,10 @@ body {
       font-size: 25px; }
   main .section-form {
     height: 64vh; }
-  footer {
-    margin-bottom: 0px; }
-    footer .contenedor-section3 h3 {
-      font-size: 18px; }
-    footer .contenedor-section3 li, footer .contenedor-section3 .ul-color {
-      font-size: 13px; } }
+  footer .contenedor-section3 h3 {
+    font-size: 18px; }
+  footer .contenedor-section3 li, footer .contenedor-section3 .ul-color {
+    font-size: 13px; } }
 
 .animacion li, .animacion .ul-color {
   display: inline-block;
