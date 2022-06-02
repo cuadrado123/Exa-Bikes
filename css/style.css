@@ -52,6 +52,8 @@ body {
     margin-top: 15px;
     background-color: #ffffff;
     border: none; }
+  main .card-body {
+    text-align: center; }
   main .card-img-top {
     width: auto; }
   main .contenedor-section2 {
@@ -220,10 +222,14 @@ body {
       border-radius: 40px; }
     main .contenedor-section2 .tamaño-p {
       font-size: 25px; }
-  footer .contenedor-section3 h3 {
-    font-size: 18px; }
-  footer .contenedor-section3 li, footer .contenedor-section3 .ul-color {
-    font-size: 13px; } }
+  main .section-form {
+    height: 64vh; }
+  footer {
+    margin-bottom: 0px; }
+    footer .contenedor-section3 h3 {
+      font-size: 18px; }
+    footer .contenedor-section3 li, footer .contenedor-section3 .ul-color {
+      font-size: 13px; } }
 
 .animacion li, .animacion .ul-color {
   display: inline-block;
